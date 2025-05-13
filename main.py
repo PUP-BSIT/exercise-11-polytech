@@ -58,9 +58,6 @@ def main_menu():
                 pass
             case 5:
                 pass
-            case 6:
-                print("Exiting the program...")
-                break
             case _:
                 print("Invalid choice, please try again.")
 
