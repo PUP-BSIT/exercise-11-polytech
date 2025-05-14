@@ -21,5 +21,7 @@ def display_fake_profile():
     for key, value in profile.items():
         print(f"{key}: {value}")
 
+    print("\n---Fake Profile Generated Successfully---\n")
+
 
 

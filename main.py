@@ -1,13 +1,9 @@
 from polytechpackage.victorio import translate_to_speech
+from polytechpackage import raquem
 
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
 #    create a function that does anything
-#    Use at least 1 external module from PyPI
-
-#TODO (Raquem):
-#    Create a module named after your last name. (raquem.py)
-#    Create a function that does anything
 #    Use at least 1 external module from PyPI
 
 #TODO (Niones):
@@ -34,7 +30,7 @@ def main_menu():
         # Loop continues until user chooses 6
         print("---[External Module]---")
         print("1. Translate To Speech")
-        print("2. ???")
+        print("2. Fake Profile Generator")
         print("3. ???")
         print("4. ???")
         print("5. ???")
@@ -50,7 +46,7 @@ def main_menu():
             case 1:
                 translate_to_speech()
             case 2:
-                pass
+                raquem.display_fake_profile()
             case 3:
                 pass
             case 4:
