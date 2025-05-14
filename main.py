@@ -3,24 +3,16 @@ from polytechpackage.raquem import display_fake_profile
 from polytechpackage.niones import hex_to_rgb_colors
 from polytechpackage.capilitan import random_joke
 from polytechpackage.villarta import display_emoji_message
-#TODO (Victorio):
-#    Create a module named after your last name. (victorio.py)
-#    create a function that does anything
-#    Use at least 1 external module from PyPI
 
 #TODO (Capilitan):
 #    Create a module named after your last name. (capilitan.py)
 #    Create a function that does anything
 #    Use at least 1 external module from PyPI
 
-#TODO (Everyone):
-#    Import all created modules in this file (main.py).
-#    Call the function from each module in this file.
-
 def main_menu():
     while True:
         # Loop continues until user chooses 6
-        print("---[External Module]---")
+        print("--------[Main Menu--------")
         print("1. Translate To Speech")
         print("2. Fake Profile Generator")
         print("3. Hex To RGB Converter")
