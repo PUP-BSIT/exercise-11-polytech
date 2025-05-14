@@ -4,11 +4,6 @@ from polytechpackage.niones import hex_to_rgb_colors
 from polytechpackage.capilitan import random_joke
 from polytechpackage.villarta import display_emoji_message
 
-#TODO (Capilitan):
-#    Create a module named after your last name. (capilitan.py)
-#    Create a function that does anything
-#    Use at least 1 external module from PyPI
-
 def main_menu():
     while True:
         # Loop continues until user chooses 6
@@ -41,4 +36,3 @@ def main_menu():
                 print("Invalid choice, please try again.")
 
 main_menu()
-
