@@ -2,15 +2,10 @@ from polytechpackage.victorio import translate_to_speech
 from polytechpackage.raquem import display_fake_profile
 from polytechpackage.niones import hex_to_rgb_colors
 from polytechpackage.capilitan import random_joke
-from polytechpackage.villarta import display_emoji_message
+
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
 #    create a function that does anything
-#    Use at least 1 external module from PyPI
-
-#TODO (Niones):
-#    Create a module named after your last name. (niones.py)
-#    Create a function that does anything
 #    Use at least 1 external module from PyPI
 
 #TODO (Capilitan):
@@ -35,7 +30,7 @@ def main_menu():
         print("2. Fake Profile Generator")
         print("3. Hex To RGB Converter")
         print("4. Random Joke")
-        print("5. Show Emoji Message")
+        print("5. ???")
         print("6. Exit")
 
         choice = int(input("Enter your choice: "))
@@ -54,7 +49,7 @@ def main_menu():
             case 4:
                 random_joke()
             case 5:
-                display_emoji_message()
+                pass
             case _:
                 print("Invalid choice, please try again.")
 
