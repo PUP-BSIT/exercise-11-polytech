@@ -7,7 +7,7 @@ from polytechpackage.villarta import display_emoji_message
 def main_menu():
     while True:
         # Loop continues until user chooses 6
-        print("--------[Main Menu--------")
+        print("--------Main Menu--------")
         print("1. Translate To Speech")
         print("2. Fake Profile Generator")
         print("3. Hex To RGB Converter")
