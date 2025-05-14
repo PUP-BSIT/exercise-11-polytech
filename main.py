@@ -1,5 +1,5 @@
 from polytechpackage.victorio import translate_to_speech
-from polytechpackage import raquem
+from polytechpackage.raquem import display_fake_profile
 from polytechpackage.niones import hex_to_rgb_colors
 
 #TODO (Victorio):
@@ -47,7 +47,7 @@ def main_menu():
             case 1:
                 translate_to_speech()
             case 2:
-                raquem.display_fake_profile()
+                display_fake_profile()
             case 3:
                 hex_to_rgb_colors()
             case 4:
