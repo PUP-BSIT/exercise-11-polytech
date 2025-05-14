@@ -1,4 +1,4 @@
-# Group: Polytech
+from polytechpackage.victorio import translate_to_speech
 
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
@@ -15,7 +15,6 @@
 #    Create a function that does anything
 #    Use at least 1 external module from PyPI
 
-
 #TODO (Capilitan):
 #    Create a module named after your last name. (capilitan.py)
 #    Create a function that does anything
@@ -29,3 +28,37 @@
 #TODO (Everyone):
 #    Import all created modules in this file (main.py).
 #    Call the function from each module in this file.
+
+def main_menu():
+    while True:
+        # Loop continues until user chooses 6
+        print("---[External Module]---")
+        print("1. Translate To Speech")
+        print("2. ???")
+        print("3. ???")
+        print("4. ???")
+        print("5. ???")
+        print("6. Exit")
+
+        choice = int(input("Enter your choice: "))
+
+        if choice == 6:
+            print("Exiting the program...")
+            break
+
+        match choice:
+            case 1:
+                translate_to_speech()
+            case 2:
+                pass
+            case 3:
+                pass
+            case 4:
+                pass
+            case 5:
+                pass
+            case _:
+                print("Invalid choice, please try again.")
+
+main_menu()
+
