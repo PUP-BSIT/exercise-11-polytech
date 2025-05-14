@@ -4,6 +4,7 @@ charset-normalizer==3.4.2
 colorcycle==1.1.0
 comtypes==1.4.10
 deep-translator==1.11.4
+emoji==2.14.1
 Faker==37.1.0
 idna==3.10
 joker==0.3.3
