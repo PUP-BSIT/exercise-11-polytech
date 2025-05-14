@@ -1,6 +1,7 @@
 from polytechpackage.victorio import translate_to_speech
 from polytechpackage.raquem import display_fake_profile
 from polytechpackage.niones import hex_to_rgb_colors
+from polytechpackage.capilitan import random_joke
 
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
@@ -33,7 +34,7 @@ def main_menu():
         print("1. Translate To Speech")
         print("2. Fake Profile Generator")
         print("3. Hex To RGB Converter")
-        print("4. ???")
+        print("4. Random Joke")
         print("5. ???")
         print("6. Exit")
 
@@ -51,7 +52,7 @@ def main_menu():
             case 3:
                 hex_to_rgb_colors()
             case 4:
-                pass
+                random_joke()
             case 5:
                 pass
             case _:
