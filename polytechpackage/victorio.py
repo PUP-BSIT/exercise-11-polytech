@@ -17,9 +17,7 @@ def translate_to_speech():
         else:
             print("Invalid choice, try again.")
 
-
     text = input("Enter the text to be translated: ")
-
     translated_text = GoogleTranslator(
             source = 'auto', target = language_input).translate(text)
 
@@ -30,5 +28,3 @@ def translate_to_speech():
     engine = pyttsx3.init()
     engine.say(translated_text)
     engine.runAndWait()
-
-translate_to_speech()

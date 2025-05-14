@@ -1,4 +1,4 @@
-# Group: Polytech
+from polytechpackage.victorio import translate_to_speech
 
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
@@ -14,7 +14,6 @@
 #    Create a module named after your last name. (niones.py)
 #    Create a function that does anything
 #    Use at least 1 external module from PyPI
-
 
 #TODO (Capilitan):
 #    Create a module named after your last name. (capilitan.py)
@@ -34,7 +33,7 @@ def main_menu():
     while True:
         # Loop continues until user chooses 6
         print("---[External Module]---")
-        print("1. ???")
+        print("1. Translate To Speech")
         print("2. ???")
         print("3. ???")
         print("4. ???")
@@ -49,7 +48,7 @@ def main_menu():
 
         match choice:
             case 1:
-                pass
+                translate_to_speech()
             case 2:
                 pass
             case 3:
