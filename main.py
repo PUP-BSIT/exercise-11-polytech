@@ -1,5 +1,6 @@
 from polytechpackage.victorio import translate_to_speech
 from polytechpackage import raquem
+from polytechpackage.niones import hex_to_rgb_colors
 
 #TODO (Victorio):
 #    Create a module named after your last name. (victorio.py)
@@ -31,7 +32,7 @@ def main_menu():
         print("---[External Module]---")
         print("1. Translate To Speech")
         print("2. Fake Profile Generator")
-        print("3. ???")
+        print("3. Hex To RGB Converter")
         print("4. ???")
         print("5. ???")
         print("6. Exit")
@@ -48,7 +49,7 @@ def main_menu():
             case 2:
                 raquem.display_fake_profile()
             case 3:
-                pass
+                hex_to_rgb_colors()
             case 4:
                 pass
             case 5:
